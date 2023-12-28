@@ -1,8 +1,7 @@
-
 Reversi (Othello) in Python
 ===========================
 
-This project is an implementation of the classic board game Reversi (also known as Othello) in Python, utilizing the Pygame library. It offers both a two-player mode and an AI mode where you can play against the computer.
+This project is an implementation of the classic board game Reversi (also known as Othello) in Python, using the Pygame library. It features an on-screen menu for selecting game modes, automated turn skipping when no valid moves are available, and a winner announcement at the end of the game.
 
 Getting Started
 ---------------
@@ -10,14 +9,14 @@ Getting Started
 Prerequisites
 -------------
 
-Before running the game, you need to have Python installed on your system along with the Pygame library. If you don't have Pygame installed, you can install it via pip:
+Before running the game, ensure you have Python and the Pygame library installed on your system. To install Pygame, use pip:
 
     pip install pygame
 
 Running the Game
 ----------------
 
-To play the game, simply clone this repository and run the Reversi.py file:
+Clone this repository and run the Reversi.py file to start the game:
 
     git clone [Your-Repository-URL]
     cd [Your-Repository-Name]
@@ -26,20 +25,25 @@ To play the game, simply clone this repository and run the Reversi.py file:
 Game Modes
 ----------
 
-1. Two-Player Mode: In this mode, two players take turns on the same machine.
-2. AI Mode: Play against an AI opponent. The AI uses an alpha-beta pruning algorithm for decision-making.
+- Two Player Mode: Two players take turns on the same machine.
+- Play Against Computer: Challenge an AI opponent. The AI uses alpha-beta pruning for decision-making.
 
 Gameplay
 --------
 
-- Launch the game.
-- Select the desired mode (Two-Player or AI Mode).
-- In the game, players will alternate turns, placing one disk on the board with each turn.
-- The goal is to capture the opponent's disks by trapping them between your own.
-- The game ends when the board is full or no valid moves are available.
-- The player with the most disks on the board at the end of the game wins.
+1. Launch the game.
+2. Select the desired mode by clicking on the corresponding button on the screen.
+3. Players take turns placing a disk on the board.
+4. Capture the opponent's disks by trapping them between your disks.
+5. The game ends when the board is full or no valid moves are available.
+6. The winner is displayed at the end of the game.
+
+Skipping Turns
+--------------
+
+If a player has no valid moves, their turn is automatically skipped.
 
 Controls
 --------
 
-- Use the mouse to click on the board where you want to place your disk.
+- Use the mouse to click on the board to place your disk.
