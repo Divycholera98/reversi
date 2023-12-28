@@ -18,8 +18,8 @@ Running the Game
 
 Clone this repository and run the Reversi.py file to start the game:
 
-    git clone [Your-Repository-URL]
-    cd [Your-Repository-Name]
+    git clone https://github.com/Divycholera98/reversi.git
+    cd reversi
     python Reversi.py
 
 Game Modes
