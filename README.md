@@ -1,4 +1,3 @@
-# reversi
 
 Reversi (Othello) in Python
 ===========================
